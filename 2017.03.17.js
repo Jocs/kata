@@ -11,7 +11,7 @@
 // "indivisibility" -> 1 # 'i'
 // "Indivisibilities" -> 2 # 'i' and 's'
 // "aa11" -> 2 # 'a' and '1'
-function duplicateCount(text){
+function duplicateCount(text){	
   //...
   const obj = [...text].reduce((acc, t) => {
 	acc[t.toLowerCase()] ? acc[t.toLowerCase()]++ : acc[t.toLowerCase()] = 1
